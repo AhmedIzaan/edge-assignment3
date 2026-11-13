@@ -1,0 +1,9 @@
+block,original_hidden,kept_hidden,removed_hidden
+layer1.0,64,48,16
+layer1.1,64,48,16
+layer2.0,128,96,32
+layer2.1,128,96,32
+layer3.0,256,192,64
+layer3.1,256,192,64
+layer4.0,512,384,128
+layer4.1,512,384,128

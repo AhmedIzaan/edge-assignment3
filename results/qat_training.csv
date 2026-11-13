@@ -1,0 +1,2 @@
+stage,epoch,train_loss,train_accuracy_pct,val_accuracy_pct,seconds,learning_rate
+qat,1,1.0210558562172785,63.46666666666667,64.72,85.565512808,0.001

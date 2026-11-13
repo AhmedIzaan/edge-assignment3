@@ -1,0 +1,6 @@
+model,onnx_mib,checked_images,max_absolute_logit_error,prediction_agreement_pct,quantize_nodes,output_quantization_step,max_error_in_output_steps,full_test_images,onnx_test_accuracy_pct,native_test_accuracy_pct,full_test_prediction_agreement_pct,status
+fp32,42.64427471160889,32,3.337860107421875e-06,100.0,0,0.0,0.0,10000,62.41,62.41,100.0,checker and CPU execution passed
+ptq_int8,10.773283004760742,32,0.49003028869628906,90.625,33,0.24501502513885498,2.0000009730773813,10000,61.81,61.7,93.96,checker and CPU execution passed
+qat_int8,10.773283004760742,32,0.3436436653137207,96.875,33,0.11454784870147705,3.000001040694268,10000,64.65,64.56,96.96,checker and CPU execution passed
+unstructured,42.64427471160889,32,2.384185791015625e-06,100.0,0,0.0,0.0,10000,65.14,65.14,100.0,checker and CPU execution passed
+structured,32.16586971282959,32,2.384185791015625e-06,100.0,0,0.0,0.0,10000,64.05,64.05,100.0,checker and CPU execution passed

@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "threads": 4,
+  "batch_size": 128,
+  "baseline_epochs": 4,
+  "qat_epochs": 1,
+  "finetune_epochs": 1,
+  "data_dir": "/workspace/scratch/554aacdf2860/data",
+  "unstructured_amount_per_iteration": 0.2,
+  "pruning_iterations": 3,
+  "channel_prune_fraction": 0.25
+}

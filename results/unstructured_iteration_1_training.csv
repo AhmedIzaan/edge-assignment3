@@ -1,0 +1,2 @@
+stage,epoch,train_loss,train_accuracy_pct,val_accuracy_pct,seconds,learning_rate
+unstructured_iteration_1,1,1.0453489276885986,62.76,61.34,8.135319631999891,0.002
